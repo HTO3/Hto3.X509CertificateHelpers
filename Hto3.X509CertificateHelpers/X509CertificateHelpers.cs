@@ -87,18 +87,18 @@ namespace Hto3.X509CertificateHelpers
         /// <summary>
         /// If necessary, calls the Windows dialog box for the user to enter the digital certificate PIN code. Widely used in A3 digital certificates.
         /// </summary>
-        /// <param name="certificate">Certificado digital</param>
+        /// <param name="certificate">The certificate</param>
         public static void AskForPIN(this X509Certificate2 certificate)
         {
             if (certificate == null)
                 throw new ArgumentNullException(nameof(certificate));
 
-            SignXML(certificate, null, "<?xml version=\"1.0\" encoding=\"utf-8\"?><dummyTag/>");
+            X509CertificateHelpers.SignXML(certificate, null, "<?xml version=\"1.0\" encoding=\"utf-8\"?><dummyTag/>");
         }
         /// <summary>
         /// Get the certificate owner name.
         /// </summary>
-        /// <param name="certificate"></param>
+        /// <param name="certificate">The certificate</param>
         /// <returns></returns>
         public static String GetCertificateOwnerName(this X509Certificate2 certificate)
         {
@@ -115,7 +115,7 @@ namespace Hto3.X509CertificateHelpers
         /// <summary>
         /// Tries to get the CPF or CNPJ linked to the digital certificate, if it is not found, null will be returned.
         /// </summary>
-        /// <param name="certificate"></param>
+        /// <param name="certificate">The certificate</param>
         /// <returns></returns>
         public static String GetCertificateCPFCNPJ(this X509Certificate2 certificate)
         {
@@ -161,7 +161,7 @@ namespace Hto3.X509CertificateHelpers
                 docXML.Load(xtr);
             }
 
-            return X509CertificateHelpers.SignXML(certificate, elementNameRef, xml, attributeRef);
+            return X509CertificateHelpers.SignXML(certificate, elementNameRef, docXML, attributeRef);
         }
         /// <summary>
         /// Sign a XML with a digital certificate.

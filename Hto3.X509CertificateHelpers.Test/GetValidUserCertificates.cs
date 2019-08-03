@@ -7,8 +7,15 @@ namespace Hto3.X509CertificateHelpers.Test
     public class GetValidUserCertificates
     {
         [TestMethod]
-        public void TestMethod1()
+        public void JustReturnAnyValue()
         {
+            //Cannot test since each user will have different result. Trust me, it's works.
+            
+            //Act
+            var result = X509CertificateHelpers.GetValidUserCertificates();
+
+            //Assert
+            Assert.IsNotNull(result);
         }
     }
 }
