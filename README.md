@@ -1,6 +1,6 @@
 ﻿<img alt="logo" width="150" height="150" src="nuget-logo.png">
 
-Hto3.StringHelpers
+Hto3.X509CertificateHelpers
 ========================================
 
 #### Nuget Package
