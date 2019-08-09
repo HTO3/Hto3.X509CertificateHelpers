@@ -8,7 +8,7 @@ Hto3.X509CertificateHelpers
 
 Features
 --------
-A set of extension methods help when using X.509 Certificates solving common dev problems.
+A set of extension methods to help when using X.509 Certificates solving common dev problems.
 
 ### VerifyPassword
 
