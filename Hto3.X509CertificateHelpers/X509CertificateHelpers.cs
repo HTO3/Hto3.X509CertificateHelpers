@@ -35,7 +35,7 @@ namespace Hto3.X509CertificateHelpers
             if (pfxCertificateStream == null)
                 throw new ArgumentNullException(nameof(pfxCertificateStream));
             if (!pfxCertificateStream.CanRead)
-                throw new IOException("Cannot read the '" + nameof(pfxCertificateStream) + "' parameter.");
+                throw new IOException($"Cannot read the '{nameof(pfxCertificateStream)}' parameter.");
             if (password == null)
                 throw new ArgumentNullException(nameof(password));
 
@@ -63,7 +63,7 @@ namespace Hto3.X509CertificateHelpers
             if (pfxCertificateStream == null)
                 throw new ArgumentNullException(nameof(pfxCertificateStream));
             if (!pfxCertificateStream.CanRead)
-                throw new IOException("Cannot read the 'pfxCertificateStream' parameter.");
+                throw new IOException($"Cannot read the '{nameof(pfxCertificateStream)}' parameter.");
             if (password == null)
                 throw new ArgumentNullException(nameof(password));
 
@@ -74,6 +74,9 @@ namespace Hto3.X509CertificateHelpers
         /// <summary>
         /// Gets the collection of valid certificates from the currently authenticated user's computer.
         /// </summary>
+        /// <remarks>
+        /// See more about X509Certificate2Collection at https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.x509certificate2collection.
+        /// </remarks>
         /// <returns></returns>
         public static X509Certificate2Collection GetValidUserCertificates()
         {
