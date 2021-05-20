@@ -5,9 +5,9 @@ jobs:
   include:
     - stage: build
       script:
-        - dotnet build Hto3.CollectionHelpers/Hto3.X509CertificateHelpers.csproj -f netstandard2.1
-        - dotnet build Hto3.CollectionHelpers/Hto3.X509CertificateHelpers.csproj -f netstandard2.0
-        - dotnet build Hto3.CollectionHelpers/Hto3.X509CertificateHelpers.csproj -f net5.0
+        - dotnet build Hto3.X509CertificateHelpers/Hto3.X509CertificateHelpers.csproj -f netstandard2.1
+        - dotnet build Hto3.X509CertificateHelpers/Hto3.X509CertificateHelpers.csproj -f netstandard2.0
+        - dotnet build Hto3.X509CertificateHelpers/Hto3.X509CertificateHelpers.csproj -f net5.0
     - stage: test
       script:
         - dotnet test -f net5.0
