@@ -5,18 +5,19 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hto3.X509CertificateHelpers", "Hto3.X509CertificateHelpers\Hto3.X509CertificateHelpers.csproj", "{254402A0-7AAE-419D-8671-666119220263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hto3.X509CertificateHelpers.Test", "Hto3.X509CertificateHelpers.Test\Hto3.X509CertificateHelpers.Test.csproj", "{49DEA063-31B8-4351-BF55-73F50CB43615}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF395474-C00E-4585-B970-91BE967B1E71}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.travis.yml = .travis.yml
 		LICENSE = LICENSE
 		nuget-logo.kra = nuget-logo.kra
 		nuget-logo.png = nuget-logo.png
 		pin.jpg = pin.jpg
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hto3.X509CertificateHelpers.Test", "Hto3.X509CertificateHelpers.Test\Hto3.X509CertificateHelpers.Test.csproj", "{FFE5FE95-CCB2-477A-8277-C9415CB55074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +29,10 @@ Global
 		{254402A0-7AAE-419D-8671-666119220263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{254402A0-7AAE-419D-8671-666119220263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{254402A0-7AAE-419D-8671-666119220263}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49DEA063-31B8-4351-BF55-73F50CB43615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49DEA063-31B8-4351-BF55-73F50CB43615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49DEA063-31B8-4351-BF55-73F50CB43615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49DEA063-31B8-4351-BF55-73F50CB43615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE5FE95-CCB2-477A-8277-C9415CB55074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE5FE95-CCB2-477A-8277-C9415CB55074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE5FE95-CCB2-477A-8277-C9415CB55074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE5FE95-CCB2-477A-8277-C9415CB55074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
