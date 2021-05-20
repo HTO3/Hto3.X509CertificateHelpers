@@ -14,7 +14,9 @@ namespace Hto3.X509CertificateHelpers.Test
             var PFX_CERTIFICATE_STREAM = new MemoryStream(Properties.Resources.certificate);
             var VALID_PASSWORD = "123456";
             var EXPECTED_DATE = new DateTime(2029, 7, 31, 14, 20, 41).ToLocalTime();
-            
+
+            Console.WriteLine(TimeZoneInfo.Local.ToString() + "# #" + TimeZoneInfo.Local.BaseUtcOffset.ToString());
+
             //Act
             var expirationDate = X509CertificateHelpers.GetExpirationDate(PFX_CERTIFICATE_STREAM, VALID_PASSWORD);
 
