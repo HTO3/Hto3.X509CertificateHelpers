@@ -191,7 +191,7 @@ namespace Hto3.X509CertificateHelpers
             reference.AddTransform(new XmlDsigC14NTransform(false));
 
             var signedXml = new SignedXml(xmlDocument);
-            signedXml.SigningKey = certificate.PrivateKey;
+            signedXml.SigningKey = certificate.GetRSAPrivateKey();
             signedXml.SignedInfo.CanonicalizationMethod = SignedXml.XmlDsigC14NTransformUrl;
             signedXml.SignedInfo.SignatureMethod = SignedXml.XmlDsigRSASHA1Url;
             signedXml.AddReference(reference);
