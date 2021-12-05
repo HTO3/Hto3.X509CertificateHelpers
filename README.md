@@ -1,4 +1,4 @@
-﻿<img alt="logo" width="150" height="150" src="nuget-logo.png">
+﻿![logo](https://raw.githubusercontent.com/HTO3/X509CertificateHelpers/master/nuget-logo-small.png)
 
 Hto3.X509CertificateHelpers
 ========================================
