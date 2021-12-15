@@ -6,7 +6,7 @@ Hto3.X509CertificateHelpers
 [![License](https://img.shields.io/github/license/HTO3/Hto3.X509CertificateHelpers)](https://github.com/HTO3/Hto3.X509CertificateHelpers/blob/master/LICENSE)
 [![Hto3.X509CertificateHelpers](https://img.shields.io/nuget/v/Hto3.X509CertificateHelpers.svg)](https://www.nuget.org/packages/Hto3.X509CertificateHelpers/)
 [![Downloads](https://img.shields.io/nuget/dt/Hto3.X509CertificateHelpers)](https://www.nuget.org/stats/packages/Hto3.X509CertificateHelpers?groupby=Version)
-[![Build Status](https://travis-ci.com/HTO3/Hto3.X509CertificateHelpers.svg?branch=master)](https://travis-ci.com/HTO3/Hto3.X509CertificateHelpers)
+[![Build Status](https://github.com/HTO3/Hto3.X509CertificateHelpers/actions/workflows/publish.yml/badge.svg)](https://github.com/HTO3/Hto3.X509CertificateHelpers/actions/workflows/publish.yml)
 [![codecov](https://codecov.io/gh/HTO3/Hto3.X509CertificateHelpers/branch/master/graph/badge.svg)](https://codecov.io/gh/HTO3/Hto3.X509CertificateHelpers)
 
 Features
