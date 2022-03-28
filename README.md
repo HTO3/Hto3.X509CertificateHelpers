@@ -8,6 +8,7 @@ Hto3.X509CertificateHelpers
 [![Downloads](https://img.shields.io/nuget/dt/Hto3.X509CertificateHelpers)](https://www.nuget.org/stats/packages/Hto3.X509CertificateHelpers?groupby=Version)
 [![Build Status](https://github.com/HTO3/Hto3.X509CertificateHelpers/actions/workflows/publish.yml/badge.svg)](https://github.com/HTO3/Hto3.X509CertificateHelpers/actions/workflows/publish.yml)
 [![codecov](https://codecov.io/gh/HTO3/Hto3.X509CertificateHelpers/branch/master/graph/badge.svg)](https://codecov.io/gh/HTO3/Hto3.X509CertificateHelpers)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f663829c62884c85a295677276c68229)](https://www.codacy.com/gh/HTO3/Hto3.X509CertificateHelpers/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HTO3/Hto3.X509CertificateHelpers&amp;utm_campaign=Badge_Grade)
 
 Features
 --------
